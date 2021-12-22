@@ -1,0 +1,33 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.dump
+
+# MPLAB X IDE (Netbeans) specific
+**/*.X/~*.*
+**/*.X/build/
+**/*.X/debug/
+**/*.X/dist/
+**/*.X/disassembly/
+**/*.X/nbproject/private/
+**/*.X/nbproject/*.mk
+**/*.X/nbproject/*.bash
+**/*.X/nbproject/Makefile-genesis.properties
+**/out_usb_bridge_dell_fw/
+
+# For MPLAB v5.45 & MHC v3.6.0
+**/*.X/.generated_files
+
+# KDE specific
+.directory
+
+# Misc
+.svn
+*.bak
+
+# Harmony Content Manager may get into harmony folder if someone tries to run it.  We don't want it.
+harmony/contentmanager/
+harmony/content_manager_artifacts/
+harmony.hcm-settings.xml
