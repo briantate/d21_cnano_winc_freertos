@@ -1,0 +1,14 @@
+configName: default
+folderName: d21G17_globalSensor
+format_version: v1.0
+frameworkPath: ..\..\..\Users\c41175\Harmony3
+processor: ATSAMD21G17D
+projectName: d21G17_globalSensor
+settings:
+  PackageFilter: gfx_apps;csp_apps_sam_d5x_e5x;bsp;wireless_system_pic32mzw1_wfi32e01;micrium_ucos3;touch;dev_packs;audio;usb_apps_device;csp_apps_sam_d21_da1;motor_control;core_apps_sam_d21_da1;usb;cryptoauthlib;wireless_wifi;wireless_apps_winc1500;gfx;wireless_apps_pic32mzw1_wfi32e01;bt;crypto;wireless;net;csp;core;bootloader_apps_i2c;cryptoauthlib_apps;quick_docs;bootloader_apps_uart;core_apps_sam_d5x_e5x;core_apps_pic32mz_w1;csp_apps_pic32mz_w1;bootloader
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: ./dev_packs/arm/CMSIS/5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: ./dev_packs/Microchip/SAMD21_DFP/3.4.116/samd21d/atdf/ATSAMD21G17D.atdf
